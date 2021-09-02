@@ -1,7 +1,7 @@
 # vacinacaoSP
   O objetivo principal deste projeto é verificar, pela lei de Benford, a veracidade dos dados de vacinação do estado de SP.
 Para isso, utilizaremos o dataset que pode ser acessado diretamente do portal do [governo](https://vacinaja.sp.gov.br/vacinometro/?utm_source=portal&utm_medium=banner-topo&utm_campaign=Vacinometro-Municipios) 
-## Como a lei de benford funciona?
+## Como a Lei de Benford funciona?
   Em 1881, o astrônomo Simon Newcomb percebeu que as primeiras páginas de livros de logaritmo estavam mais usadas do que as últimas, pelo fato de serem mais utilizadas em cálculos. Ele então percebe esse fenômeno se repetir muitas vezes de modo que, em conjuntos de dados aleatórios e distrubuidos em diferentes ordens de grandeza,a probabilidade do número 1 surgir no primeiro digito é maior que o número 2, que é maior que o número 3, e assim por diante. De acordo com a seguinte fórmula:
  
  ![benford](https://wikimedia.org/api/rest_v1/media/math/render/svg/48649074b19e71dc8dc5e8dd82717f05bc541b67)
