@@ -30,8 +30,8 @@ def benford(coluna):
 
 
 #DataBase
-end_vacinometro = 'https://github.com/onofabricio/vacinacaoSP/blob/main/vacinometroSP.csv'
-df_vacinometro = pd.read_csv(end_vacinometro, index_col=0)
+end_vacinometro = 'https://github.com/onofabricio/vacinacaoSP/blob/main/vacinometroSP.csv.zip?raw=true'
+df_vacinometro = pd.read_csv(end_vacinometro, index_col=0, compression = 'zip')
 df_benford = pd.DataFrame(index=[str(i) for i in range(1, 10)])
 
 
